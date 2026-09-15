@@ -1,0 +1,44 @@
+# Dolly 3D Portfolio
+
+A responsive 3D developer portfolio built with React, Vite, Three.js and React Three Fiber.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the local URL shown by Vite.
+
+## Build for deployment
+
+```bash
+npm run build
+npm run preview
+```
+
+## GitHub setup
+
+Create an empty repository on GitHub, then run these commands from this folder:
+
+```bash
+git init
+git add .
+git commit -m "Initial portfolio"
+git branch -M main
+git remote add origin https://github.com/<your-username>/<your-repository>.git
+git push -u origin main
+```
+
+Replace the remote URL with your repository URL. Do not commit generated files in `dist/` or dependencies in `node_modules/`; they are already excluded by `.gitignore`.
+
+## Customize
+
+Open `src/main.jsx`:
+- Change the name and bio
+- Replace the project list
+- Change the email address
+- Add GitHub / LinkedIn links
+
+The main 3D scene is in the `Scene`, `HeroObject`, and `FloatingShape` components.
