@@ -1,6 +1,6 @@
 # Dolly 3D Portfolio
 
-A responsive 3D developer portfolio built with React, Vite, Three.js and React Three Fiber.
+A responsive 3D developer portfolio for Dolly Shrivastava, built with React, Vite, Three.js and React Three Fiber. It showcases web applications, AI experiments, technical skills and interactive digital experiences.
 
 ## Run locally
 
