@@ -481,7 +481,6 @@ footer {
   .nav nav::-webkit-scrollbar { display: none; }
   .nav nav button { flex: 0 0 auto; font-size: 12px; padding: 4px 0; }
   .nav-cta { padding: 8px 12px; font-size: 12px; }
-  .nav-cta:last-child { display: none; }
   .hero { grid-template-columns: 1fr; padding-top: 130px; }
   .hero-canvas { height: 430px; order: -1; min-height: 0; }
   h1 { font-size: clamp(48px, 14vw, 75px); }
