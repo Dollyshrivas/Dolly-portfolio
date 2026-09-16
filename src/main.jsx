@@ -189,7 +189,7 @@ function App() {
 
         <a
           className="nav-cta"
-          href="mailto:dollyshrivas2005@example.com"
+          href="mailto:dollyshrivas2005@gmail.com"
         >
           Hire me ↗
         </a>
@@ -507,7 +507,7 @@ function App() {
 
           <a
             className="email-link"
-            href="mailto:your.email@example.com"
+            href="mailto:your.email@gmail.com"
           >
              ↗dollyshrivas2005@gmail.com
           </a>
