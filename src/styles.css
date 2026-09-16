@@ -419,7 +419,10 @@ h1 span {
 .email-link { display: inline-block; color: white; font-size: clamp(18px, 3vw, 30px); margin-top: 28px; text-decoration: none; border-bottom: 1px solid #8c72c8; padding-bottom: 7px; }
 @media (max-width: 850px) {
   .certificates-content { grid-template-columns: 1fr; gap: 24px; }
-  .certificate-list { grid-template-columns: 1fr; }
+  .certificate-list { width: 100%; }
+  .certificate-card { width: 100%; }
+  .primary-certificate-card,
+  .secondary-certificate-card { transform: none; }
 }
 footer {
   border-top: 1px solid var(--line);
@@ -459,7 +462,26 @@ footer {
   background: rgba(124, 58, 237, 0.12);
 }
 @media (max-width: 850px) {
-  .nav nav { display: none; }
+  .nav {
+    height: auto;
+    min-height: 82px;
+    padding: 16px 6vw;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .nav nav {
+    order: 3;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .nav nav::-webkit-scrollbar { display: none; }
+  .nav nav button { flex: 0 0 auto; font-size: 12px; padding: 4px 0; }
+  .nav-cta { padding: 8px 12px; font-size: 12px; }
+  .nav-cta:last-child { display: none; }
   .hero { grid-template-columns: 1fr; padding-top: 130px; }
   .hero-canvas { height: 430px; order: -1; min-height: 0; }
   h1 { font-size: clamp(48px, 14vw, 75px); }
@@ -472,6 +494,10 @@ footer {
   footer { flex-direction: column; gap: 10px; }
 }
 @media (max-width: 520px) {
+  .certificate-card { min-height: 0; padding: 20px 18px 16px; }
+  .certificate-header { align-items: flex-start; }
+  .certificate-card h3 { font-size: 28px; }
+  .certificate-footer { align-items: flex-start; flex-direction: column; }
   .skill-grid { grid-template-columns: 1fr; }
   .mini-stats { gap: 18px; }
   .hero-actions { margin-bottom: 35px; }

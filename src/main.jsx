@@ -507,7 +507,7 @@ function App() {
 
           <a
             className="email-link"
-            href="mailto:your.email@gmail.com"
+            href="mailto:dollyshrivas2005@gmail.com"
           >
              ↗dollyshrivas2005@gmail.com
           </a>
