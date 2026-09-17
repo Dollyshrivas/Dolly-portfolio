@@ -238,7 +238,7 @@ function App() {
 
               <a
                 className="secondary"
-                href="mailto:your.email@example.com"
+                href="mailto:dollyshrivas2005@gmail.com"
               >
                 Let's talk ↗
               </a>
