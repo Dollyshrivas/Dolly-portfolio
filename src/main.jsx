@@ -196,7 +196,7 @@ function App() {
 
          <a
           className="nav-cta"
-          href="/Dolly Resume.pdf.pdf"
+          href="/Dolly.pdf"
           target="_blank"
           rel="noreferrer"
         >
