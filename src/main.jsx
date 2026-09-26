@@ -11,11 +11,11 @@ const projects = [
     github: "https://github.com/Dollyshrivas/AXIS/tree/main",
   },
   {
-    title: "Pizza24",
+    title: "Car Washing Service",
     tag: "Full-Stack E-commerce",
-    desc: "A pizza ordering platform with React frontend, Django API, cart flow and MongoDB integration.",
+    desc: "A door-to-door car wash service with booking and profile with status of services with React frontend, Django API, cart flow and MongoDB integration.",
     tech: ["React", "Django", "MongoDB"],
-    github: "https://pizza24-ga81-git-main-dollyshrivas-projects.vercel.app/",
+    github: "https://shrijicarwash.vercel.app/",
   },
   {
     title: "Job Portal",
