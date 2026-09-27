@@ -15,7 +15,7 @@ const projects = [
     tag: "Full-Stack E-commerce",
     desc: "A door-to-door car wash service with booking and profile with status of services with React frontend, Django API, cart flow and MongoDB integration.",
     tech: ["React", "Django", "MongoDB"],
-    github: "https://shrijicarwash.vercel.app/",
+    github: "https://shrijicarwash.in/",
   },
   {
     title: "Job Portal",
